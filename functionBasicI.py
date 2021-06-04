@@ -7,7 +7,7 @@ print(number_of_food_groups())
 #2
 def number_of_military_branches():
     return 5
-print(number_of_days_in_a_week_silicon_or_triangle_sides() + number_of_military_branches())
+# print(number_of_days_in_a_week_silicon_or_triangle_sides() + number_of_military_branches())
 # Error: invalid arguments for number_of_days_in_a_week_silicon_or_triangle_sides()
 
 #3
@@ -34,8 +34,8 @@ print(x)
 #6
 def add(b,c):
     print(b+c)
-print(add(1,2) + add(2,3))
-# print 3, print 5, print 8
+# print(add(1,2) + add(2,3))
+# print 3, print 5, TypeError: can't add NoneType
 
 #7
 def concatenate(b,c):
@@ -83,7 +83,7 @@ def foobar():
 print(b)
 foobar()
 print(b)
-# print 500, print 500, print 300, print 300
+# print 500, print 500, print 300, print 500
 
 #12
 b = 500
@@ -95,7 +95,7 @@ def foobar():
 print(b)
 foobar()
 print(b)
-# print 500, print 500, print 300, print 300
+# print 500, print 500, print 300, print 500
 
 #13
 b = 500
